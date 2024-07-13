@@ -37,7 +37,7 @@ COPY ["RenderApiDeploy/RenderApiDeploy/RenderApiDeploy.csproj", "RenderApiDeploy
 RUN dotnet restore "RenderApiDeploy/RenderApiDeploy/RenderApiDeploy.csproj"
 
 # Copia todos los archivos restantes
-COPY RenderApiDeploy/RenderApiDeploy/. ./RenderApiDeploy/
+COPY RenderApiDeploy/RenderApiDeploy/. ./RenderApiDeploy/RenderApiDeploy
 
 # Compila el proyecto
 WORKDIR "/src/RenderApiDeploy/RenderApiDeploy/"
@@ -46,6 +46,10 @@ RUN dotnet build "RenderApiDeploy.csproj" -c $BUILD_CONFIGURATION -o /app/build
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "RenderApiDeploy.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+#.net build and publish
+
+#RUN dotnet publish ./RenderApiDeploy/RenderApiDeploy.csproj -c Release -o /publish
 
 FROM base AS final
 WORKDIR /app
