@@ -26,7 +26,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: ./RenderApiDeploy/RenderApiDeploy
+          context: ./RenderApiDeploy/
           file: Dockerfile 
           push: true
           tags: juanrojas09/render-deploy-api:latest
