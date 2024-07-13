@@ -28,6 +28,8 @@ In this instance, we will focus solely on creating Docker images and understandi
 5. Sign up for Render
 
 
+#Firstly we can run unit-test (Recomended)
+
 #Running Docker Compose with the Docker Image
 Open a PowerShell terminal and navigate to the root directory of the project. Execute the command docker-compose build to build your Docker image.
 
@@ -61,5 +63,13 @@ docker pull dockerhub-username/new-repo:tagname
 #Build PIPELINE
 
 ![image](https://github.com/user-attachments/assets/7652f3bd-eed2-4661-8225-c24fc4b2db73)
+
+
+#Deploy to render automation pipeline
+
+![image](https://github.com/user-attachments/assets/9a5b2ec3-3b22-4a90-8685-17b015935242)
+
+
+
 
 
