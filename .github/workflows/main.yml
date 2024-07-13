@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./directory/Dockerfile 
           push: true
-          tags: juanrojas09/render-deploy-api
+          tags: juanrojas09/render-deploy-api:latest
