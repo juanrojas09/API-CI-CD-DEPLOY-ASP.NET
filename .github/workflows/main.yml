@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./directory/Dockerfile 
           push: true
-          tags: dockerhub-username/new-repo:tagname
+          tags: juanrojas09/render-deploy-api
