@@ -60,5 +60,6 @@ docker pull dockerhub-username/new-repo:tagname
 
 #Build PIPELINE
 
+![image](https://github.com/user-attachments/assets/7652f3bd-eed2-4661-8225-c24fc4b2db73)
 
 
