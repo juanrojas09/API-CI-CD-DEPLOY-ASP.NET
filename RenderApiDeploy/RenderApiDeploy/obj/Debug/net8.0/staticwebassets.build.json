@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tjRdEys1JG5HSOTV8c2gwGs0F0K5CtPIUxt742uEttk=",
+  "Source": "RenderApiDeploy",
+  "BasePath": "_content/RenderApiDeploy",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

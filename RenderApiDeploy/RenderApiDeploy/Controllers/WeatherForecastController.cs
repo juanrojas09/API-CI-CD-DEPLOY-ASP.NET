@@ -29,5 +29,11 @@ namespace RenderApiDeploy.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("RenderDeploy")]
+        public string RenderDeploy()
+        {
+            return "Render Deploy";
+        }
     }
 }

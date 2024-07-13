@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RenderApiDeploy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf1700340858e311a9079a33f1b936cf9256b307")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bd8b1ed11e8030cca872ddd525654e3c1edae81")]
 [assembly: System.Reflection.AssemblyProductAttribute("RenderApiDeploy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RenderApiDeploy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
