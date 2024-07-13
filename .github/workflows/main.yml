@@ -31,4 +31,8 @@ jobs:
           context:  .
           file: ./RenderApiDeploy/RenderApiDeploy/Dockerfile 
           push: true
-          tags: juanrojas09/render-deploy-api:latest
+          build-args: |
+            --no-cache
+          tags: |
+             juanrojas09/render-deploy-api:latest
+             juanrojas09/render-deploy-api:${{ github.sha }}
