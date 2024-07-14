@@ -33,7 +33,7 @@ namespace RenderApiDeploy.Controllers
         [HttpGet("RenderDeploy")]
         public string RenderDeploy()
         {
-            return "Render Deploy api";
+            return "Render Deploy ap2i";
         }
     }
 }
