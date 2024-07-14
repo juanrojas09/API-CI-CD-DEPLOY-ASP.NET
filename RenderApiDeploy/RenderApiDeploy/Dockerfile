@@ -41,7 +41,6 @@ COPY RenderApiDeploy/RenderApiDeploy/. ./RenderApiDeploy/RenderApiDeploy
 
 # Compila el proyecto
 WORKDIR "/src/RenderApiDeploy/RenderApiDeploy/"
-
 RUN dotnet build "RenderApiDeploy.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
